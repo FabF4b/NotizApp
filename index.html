@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notiz-App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-app">
+      <div class="container-sidebar">
+        <button onclick="newNote()" class="new-note-btn">
+          <img src="svg/icons8-plus.svg" alt="add-icon" height="28px" />
+          Notiz
+        </button>
+        <div class="notes-list" id="notes-list"></div>
+      </div>
+      <div class="container-notes">
+        <div class="new-notes">
+          <input
+            id="newNoteTitle-input"
+            type="text"
+            placeholder="Überschrift eingeben..."
+          />
+          <button>
+            <img
+              src="svg/icons8-save-48.png"
+              alt="save-icon"
+              height="60px"
+              id="save-btn"
+            />
+          </button>
+          <button>
+            <img
+              src="svg/icons8-trash.svg"
+              alt="delete-icon"
+              height="60px"
+              id="delete-btn"
+            />
+          </button>
+        </div>
+        <textarea placeholder="...notiz" id="newNote-input"></textarea>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
