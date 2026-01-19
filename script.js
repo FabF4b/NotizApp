@@ -77,7 +77,6 @@ function renderNotes() {
     notesDiv.appendChild(noteTitle);
     notesDiv.appendChild(noteContent);
     notesDiv.appendChild(noteDate);
-
     notesListEle.appendChild(notesDiv);
   });
 }

@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Questrial";
+  src: url(assets/font/Questrial/Questrial-Regular.ttf);
+}
+
 :root {
   --clr-background: linear-gradient(to left, hsl(60, 1%, 24%), hsl(0, 0%, 13%));
   --clr-primary-text: hsl(0, 0%, 70%);
